@@ -34,13 +34,13 @@ The `OpcodeChecker` script reads a YAML file containing opcode definitions and a
 2. Run the script:
 
     ```sh
-    python opcode_checker.py
+    python opcodeChecker.py
     ```
 3. Note: you can change the YAML that you want to examine in line 102, by replacing `instr_dict.yaml` with the rout of your own YAML file.
 
 ## Files
 
-- `opcode_checker.py`: Main script that performs the checks.
+- `opcodeChecker.py`: Main script that performs the checks.
 - `instr_dict.yaml`: YAML file containing opcode definitions.
 - `arg_lut.csv`: CSV file providing the argument lookup table.
 - `opcodes.yaml`: Just another YAML file there to test the script.
