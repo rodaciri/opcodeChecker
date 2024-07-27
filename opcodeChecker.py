@@ -99,7 +99,7 @@ class OpcodeChecker:
         return status
 
 if __name__ == "__main__":
-    opcodeChecker = OpcodeChecker('opcodes.yaml', "arg_lut.csv")
+    opcodeChecker = OpcodeChecker('instr_dict.yaml', "arg_lut.csv")
     
     a=opcodeChecker.check_bit_ranges()
     b=opcodeChecker.do_values_fit()
