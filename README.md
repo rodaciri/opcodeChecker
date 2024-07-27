@@ -47,7 +47,7 @@ The `OpcodeChecker` script reads a YAML file containing opcode definitions and a
 
 ## Example Output
 
-- Bit Range check:
+Bit Range check:
 - add - OK
 - add_uw - OK
 - addi - OK
