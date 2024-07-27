@@ -47,25 +47,25 @@ The `OpcodeChecker` script reads a YAML file containing opcode definitions and a
 
 ## Example Output
 
-Bit Range check:
-add - OK
-add_uw - OK
-addi - OK
+- Bit Range check:
+- add - OK
+- add_uw - OK
+- addi - OK
 
 Width check:
-add - OK
-add_uw - OK
-addi - OK
+- add - OK
+- add_uw - OK
+- addi - OK
 
 Argument Check:
-add (rd) - OK
-add (rs1) - OK
-add (rs2) - OK
-add_uw (rd) - OK
-add_uw (rs1) - OK
-add_uw (rs2) - OK
-addi (rd) - OK
-addi (rs1) - OK
-addi (imm12) - OK
+- add (rd) - OK
+- add (rs1) - OK
+- add (rs2) - OK
+- add_uw (rd) - OK
+- add_uw (rs1) - OK
+- add_uw (rs2) - OK
+- addi (rd) - OK
+- addi (rs1) - OK
+- addi (imm12) - OK
 
 Succesfull
