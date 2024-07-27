@@ -1,0 +1,30 @@
+add:
+  encoding: 0000000----------000-----0110011
+  extension:
+  - rv_i
+  mask: '0xfe00707f'
+  match: '0x33'
+  variable_fields:
+  - rd
+  - rs1
+  - rs2
+add_uw:
+  encoding: 0000100----------000-----0111011
+  extension:
+  - rv64_zba
+  mask: '0xfe00707f'
+  match: '0x800003b'
+  variable_fields:
+  - rd
+  - rs1
+  - rs2
+addi:
+  encoding: '-----------------000-----0010011'
+  extension:
+  - rv_i
+  mask: '0x707f'
+  match: '0x13'
+  variable_fields:
+  - rd
+  - rs1
+  - imm12
